@@ -2,6 +2,11 @@
 name = "id-derive"
 version = "0.1.0"
 authors = ["Michal Siedlaczek <michal.siedlaczek@nyu.edu>"]
+description = "Derive-based newtype pattern for integral IDs in Rust"
+repository = "https://github.com/elshize/id-derive"
+license = "Apache-2.0/MIT"
+readme = "README.md"
+keywords = ["derive", "id"]
 edition = "2018"
 
 [lib]
@@ -11,8 +16,8 @@ proc-macro = true
 quote = "1.0"
 syn = { version = "1.0", features = ["extra-traits"] }
 proc-macro2 = "1.0"
-num = "0.2"
 
 [dev-dependencies]
 trybuild = "1.0"
 macrotest = "0.1"
+version-sync = "0.8"

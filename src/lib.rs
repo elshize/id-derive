@@ -79,6 +79,7 @@
 )]
 #![warn(clippy::all, clippy::pedantic)]
 #![allow(clippy::module_name_repetitions, clippy::default_trait_access)]
+#![doc(html_root_url = "https://docs.rs/id-derive/0.1.0")]
 
 extern crate proc_macro;
 
