@@ -1,0 +1,5 @@
+error: Cannot derive Id for union, expected struct.
+ --> $DIR/union.rs:4:1
+  |
+4 | union Test {
+  | ^^^^^

@@ -1,0 +1,5 @@
+error: Cannot derive Id for enum, expected struct.
+ --> $DIR/enum.rs:4:1
+  |
+4 | enum Test {}
+  | ^^^^
